@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+<body>
+    <div id="chat-box">
+        <div class="left">
+            <div class="title">当前在线人数：<span id="users-length">0</span> 人</div>
+            <div class="list">
+                <ul id="user-box">
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="top">
+                <ul id="list-box">
+                </ul>
+            </div>
+            <div class="bottom">
+                <div class="input">
+                    <input id="message-input" type="text">
+                </div>
+                <div class="btn" id="message-btn">发送</div>
+            </div>
+        </div>
+    </div>
+    <div id="login-box">
+        <div class="box">
+            <div class="input">
+                <input id="login-input" type="text" placeholder="请输入用户名">
+            </div>
+            <div class="btn" id="login-btn">登录</div>
+        </div>
+    </div>
+    <script src="./src/main.js"></script>
+</body>
+</html>
